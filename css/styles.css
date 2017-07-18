@@ -1,0 +1,181 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.top-header {
+  background-image: url(../img/mountain-france.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  max-width: 800px;
+}
+.content h1, .content p {
+  margin: 0;
+  text-align: center;
+}
+
+.content h1 {
+  font-size: 0;
+}
+.content h1 img {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.content p {
+  color: #ffffff;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+
+}
+
+#contact {
+  width: 300px;
+  background-color: #00a89a;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  margin: 30px auto 0 auto;
+  font-size: 28px;
+  text-align: center;
+  padding: 0.4em 0;
+  line-height: 1;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  transition: all 0.15s ease-in-out;
+  -webkit-transition: all 0.15s ease-in-out;
+  -moz-transition: all 0.15s ease-in-out;
+  -o-transition: all 0.15s ease-in-out;
+}
+
+#contact {
+  text-decoration: none;
+  color: #ffffff;
+}
+#contact:hover {
+    background-color: blueviolet;
+    transition: all 0.15s ease-in-out;
+    -webkit-transition: all 0.15s ease-in-out;
+    -moz-transition: all 0.15s ease-in-out;
+    -o-transition: all 0.15s ease-in-out;
+}
+
+.contact-box {
+  background-color: rgb(0, 22, 54);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content-contact {
+  box-sizing: border-box;
+  padding: 5px;
+}
+/**contact**/
+.contact-p {
+  color: #ffffff;
+  font-size: 30px;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+
+/***contact-form****/
+form {
+  max-width: 620px;
+  margin: 0 auto 50px;
+}
+
+form input, textarea {
+  width:100%;
+  box-sizing: border-box;
+  padding: 10px 10px 10px 10px;
+  border: none;
+}
+
+form input, select, textarea{
+    color: #000000;
+    background-color: #b4c7c0;
+}
+form textarea:focus, input:focus {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: #cabc94;
+}
+form textarea {
+  height: 10em;
+  resize: none;
+}
+label {
+  display: block;
+  color:#eeeeee;
+  margin-bottom: 20px;
+  font-family: 'Roboto',sans-serif;
+}
+#sub {
+  background-color: #935800;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif; /**just added*/
+  font-weight: 300; /*just added*/
+  margin-top: 30px;
+  display: block;
+  font-size: 28px;
+  text-align: center;
+  padding: 0.4em 0;
+  line-height: 1;
+  border: none;
+  /*box-shadow: 0px 3px 10px rgba(0,0,0,0.2);*/
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  transition: all 0.15s ease-in-out;
+  -webkit-transition: all 0.15s ease-in-out;
+  -moz-transition: all 0.15s ease-in-out;
+  -o-transition: all 0.15s ease-in-out;
+}
+#sub:hover {
+  color: #eeeeee;
+  text-decoration: none;
+  background-color: #df8805;
+  box-shadow: 0px 5px 14px rgba(0,0,0,0.6);
+}
+#sub:link, #sub:visited, #sub:active {
+  color: #eeeeee;
+  text-decoration:none;
+}
+.contact-span {
+  display: block;
+}
+
+.contact-info-group label {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+}
+.contact-info-group label:nth-child(1) {
+  padding-right: 5px;
+}
+.contact-info-group label:nth-child(2) {
+  padding-left: 5px;
+}
+
+footer {
+  background-color: #1c1b1b;
+  padding: 20px 0;
+}
+footer p {
+  font-family: 'Roboto',sans-serif;
+  font-size: 18px;
+  text-align: center;
+  color: #eeeeee;
+  margin: 0;
+}
